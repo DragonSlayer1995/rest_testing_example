@@ -4,4 +4,4 @@ jobs:
   Run-Api-Tests:
     runs-on: ubuntu-latest
     steps:
-      - run: pip install requirements.txt
+      - run: pip install -r requirements.txt
