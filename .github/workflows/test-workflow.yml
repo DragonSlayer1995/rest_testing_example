@@ -4,4 +4,4 @@ jobs:
   Run-Api-Tests:
     runs-on: ubuntu-latest
     steps:
-      - run: pip install -r requirements.txt
+      - run: pip3 install --no-warn-script-location --upgrade --user -r requirements.txt
